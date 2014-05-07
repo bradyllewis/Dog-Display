@@ -21,6 +21,13 @@
 		88F772A118F4ECEE009FB31C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F7728318F4ECEE009FB31C /* UIKit.framework */; };
 		88F772A918F4ECEF009FB31C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88F772A718F4ECEF009FB31C /* InfoPlist.strings */; };
 		88F772AB18F4ECEF009FB31C /* Mans_Best_FriendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F772AA18F4ECEF009FB31C /* Mans_Best_FriendTests.m */; };
+		88F772B618F4EF21009FB31C /* ZZZDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F772B518F4EF21009FB31C /* ZZZDog.m */; };
+		88F772F918FB5EC4009FB31C /* St.Bernard.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 88F772F818FB5EC4009FB31C /* St.Bernard.JPG */; };
+		88F772FD18FB6AF4009FB31C /* BorderCollie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F772FA18FB6AF4009FB31C /* BorderCollie.jpg */; };
+		88F772FE18FB6AF4009FB31C /* ItalianGreyhound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F772FB18FB6AF4009FB31C /* ItalianGreyhound.jpg */; };
+		88F772FF18FB6AF4009FB31C /* JRT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F772FC18FB6AF4009FB31C /* JRT.jpg */; };
+		88F7730218FE2D56009FB31C /* ZZZPuppy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F7730118FE2D56009FB31C /* ZZZPuppy.m */; };
+		88F7730418FE2F23009FB31C /* Bo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88F7730318FE2F23009FB31C /* Bo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,15 @@
 		88F772A618F4ECEF009FB31C /* Mans Best FriendTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mans Best FriendTests-Info.plist"; sourceTree = "<group>"; };
 		88F772A818F4ECEF009FB31C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		88F772AA18F4ECEF009FB31C /* Mans_Best_FriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mans_Best_FriendTests.m; sourceTree = "<group>"; };
+		88F772B418F4EF21009FB31C /* ZZZDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZZZDog.h; path = ../ZZZDog.h; sourceTree = "<group>"; };
+		88F772B518F4EF21009FB31C /* ZZZDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZZZDog.m; path = ../ZZZDog.m; sourceTree = "<group>"; };
+		88F772F818FB5EC4009FB31C /* St.Bernard.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = St.Bernard.JPG; sourceTree = "<group>"; };
+		88F772FA18FB6AF4009FB31C /* BorderCollie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BorderCollie.jpg; sourceTree = "<group>"; };
+		88F772FB18FB6AF4009FB31C /* ItalianGreyhound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ItalianGreyhound.jpg; sourceTree = "<group>"; };
+		88F772FC18FB6AF4009FB31C /* JRT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JRT.jpg; sourceTree = "<group>"; };
+		88F7730018FE2D56009FB31C /* ZZZPuppy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZZPuppy.h; sourceTree = "<group>"; };
+		88F7730118FE2D56009FB31C /* ZZZPuppy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZZPuppy.m; sourceTree = "<group>"; };
+		88F7730318FE2F23009FB31C /* Bo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +133,10 @@
 				88F7729118F4ECEE009FB31C /* Main.storyboard */,
 				88F7729418F4ECEE009FB31C /* ZZZViewController.h */,
 				88F7729518F4ECEE009FB31C /* ZZZViewController.m */,
+				88F772B418F4EF21009FB31C /* ZZZDog.h */,
+				88F772B518F4EF21009FB31C /* ZZZDog.m */,
+				88F7730018FE2D56009FB31C /* ZZZPuppy.h */,
+				88F7730118FE2D56009FB31C /* ZZZPuppy.m */,
 				88F7729718F4ECEE009FB31C /* Images.xcassets */,
 				88F7728618F4ECEE009FB31C /* Supporting Files */,
 			);
@@ -126,6 +146,11 @@
 		88F7728618F4ECEE009FB31C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				88F7730318FE2F23009FB31C /* Bo.jpg */,
+				88F772FA18FB6AF4009FB31C /* BorderCollie.jpg */,
+				88F772FB18FB6AF4009FB31C /* ItalianGreyhound.jpg */,
+				88F772FC18FB6AF4009FB31C /* JRT.jpg */,
+				88F772F818FB5EC4009FB31C /* St.Bernard.JPG */,
 				88F7728718F4ECEE009FB31C /* Mans Best Friend-Info.plist */,
 				88F7728818F4ECEE009FB31C /* InfoPlist.strings */,
 				88F7728B18F4ECEE009FB31C /* main.m */,
@@ -228,8 +253,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F772FE18FB6AF4009FB31C /* ItalianGreyhound.jpg in Resources */,
+				88F772F918FB5EC4009FB31C /* St.Bernard.JPG in Resources */,
+				88F772FF18FB6AF4009FB31C /* JRT.jpg in Resources */,
 				88F7729818F4ECEE009FB31C /* Images.xcassets in Resources */,
+				88F772FD18FB6AF4009FB31C /* BorderCollie.jpg in Resources */,
 				88F7728A18F4ECEE009FB31C /* InfoPlist.strings in Resources */,
+				88F7730418FE2F23009FB31C /* Bo.jpg in Resources */,
 				88F7729318F4ECEE009FB31C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,7 +281,9 @@
 			files = (
 				88F7728C18F4ECEE009FB31C /* main.m in Sources */,
 				88F7729018F4ECEE009FB31C /* ZZZAppDelegate.m in Sources */,
+				88F7730218FE2D56009FB31C /* ZZZPuppy.m in Sources */,
 				88F7729618F4ECEE009FB31C /* ZZZViewController.m in Sources */,
+				88F772B618F4EF21009FB31C /* ZZZDog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +488,7 @@
 				88F772B018F4ECEF009FB31C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88F772B118F4ECEF009FB31C /* Build configuration list for PBXNativeTarget "Mans Best FriendTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +497,7 @@
 				88F772B318F4ECEF009FB31C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
